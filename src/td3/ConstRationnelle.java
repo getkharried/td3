@@ -1,9 +1,13 @@
 package td3;
 
-public class ConstRationnelle {	
-	private static char rationnelle;
+public final class ConstRationnelle {	
+	private double rationnel;
 	
-	public ConstRationnelle(char rationnelle) {
-		ConstRationnelle.rationnelle = rationnelle;
+	public ConstRationnelle(int rationnel) {
+		this.rationnel = rationnel;
+	}
+	
+	public double getEntier() {
+		return this.rationnel;
 	}
 }
